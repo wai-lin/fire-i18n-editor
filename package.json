@@ -1,0 +1,23 @@
+{
+  "name": "fire-i18n-editor",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "functions",
+    "client"
+  ],
+  "scripts": {
+    "start:emulators": "firebase emulators:start",
+    "start:client": "npm run start --workspace=client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wai-lin/fire-i18n-editor.git"
+  },
+  "author": "nanyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wai-lin/fire-i18n-editor/issues"
+  },
+  "homepage": "https://github.com/wai-lin/fire-i18n-editor#readme"
+}

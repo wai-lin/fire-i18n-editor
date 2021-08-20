@@ -1,0 +1,3 @@
+function useTranslations() {}
+
+export { useTranslations };
